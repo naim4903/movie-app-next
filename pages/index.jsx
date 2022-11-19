@@ -172,8 +172,8 @@ const MovieList = () => {
         </Container>
       </main>
 
-      <footer>
-
+      <footer className='text-white text-center'>
+        Created by © Naim
       </footer>
     </>
   )
