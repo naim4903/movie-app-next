@@ -6,3 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #000 !important;
 }
+
+.movie-card {
+  transition: .4s;
+}
+
+.movie-card:hover {
+  transform: scale(1.1);
+}
