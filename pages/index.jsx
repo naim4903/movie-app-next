@@ -157,7 +157,7 @@ const MovieList = () => {
             <Row>
               {
                 movies.length > 0 ? movies.map((item, i) => (
-                  <Col md={3} key={i} className="mb-5">
+                  <Col md={4} lg={3} key={i} className="mb-5">
                     <MovieCard movieDetails={item} />
                   </Col>
                 ))
